@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91051e8f-53c5-4e3e-8b7b-185e0a0e1525" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ProjetIOS/ProjetIOS/ArticleViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetIOS/ProjetIOS/Assets.xcassets/backpack1.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetIOS/ProjetIOS/Assets.xcassets/backpack1.imageset/backpack1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Debug-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Debug-input-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Debug-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Debug-output-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Release-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Release-input-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Release-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/Pods/Target Support Files/Pods-ProjetIOS/Pods-ProjetIOS-resources-Release-output-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/ProjetIOS.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/ProjetIOS.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/ProjetIOS.xcworkspace/xcuserdata/macbookpro.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/ProjetIOS.xcworkspace/xcuserdata/macbookpro.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/ProjetIOS/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/ProjetIOS/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetIOS/ProjetIOS/MyEventsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetIOS/ProjetIOS/MyEventsViewController.swift" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TfqzYD57MnNauJkPs2IRJCwKSX" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91051e8f-53c5-4e3e-8b7b-185e0a0e1525" name="Default Changelist" comment="" />
+      <created>1573861760616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573861760616</updated>
+      <workItem from="1573861763865" duration="10154000" />
+      <workItem from="1573874137175" duration="1574000" />
+      <workItem from="1573878153728" duration="1686000" />
+      <workItem from="1573883491912" duration="569000" />
+      <workItem from="1574077617414" duration="1189000" />
+      <workItem from="1574179074405" duration="9243000" />
+      <workItem from="1574258726904" duration="950000" />
+      <workItem from="1574342547656" duration="2577000" />
+      <workItem from="1574431872939" duration="159000" />
+      <workItem from="1574517961971" duration="4039000" />
+      <workItem from="1574554212797" duration="420000" />
+      <workItem from="1574605163794" duration="860000" />
+      <workItem from="1574606261281" duration="587000" />
+      <workItem from="1574710690909" duration="1224000" />
+      <workItem from="1575124350329" duration="49000" />
+      <workItem from="1575124409714" duration="1945000" />
+      <workItem from="1575312258252" duration="2601000" />
+      <workItem from="1575334118968" duration="606000" />
+      <workItem from="1575505706807" duration="1369000" />
+      <workItem from="1575574193490" duration="1189000" />
+      <workItem from="1575766642171" duration="296000" />
+      <workItem from="1575822765249" duration="1895000" />
+      <workItem from="1575825423490" duration="1819000" />
+      <workItem from="1575829854284" duration="266000" />
+      <workItem from="1575931624407" duration="1000" />
+      <workItem from="1576040170014" duration="1037000" />
+      <workItem from="1576343828123" duration="6032000" />
+      <workItem from="1576372245655" duration="1564000" />
+      <workItem from="1576429371255" duration="4553000" />
+      <workItem from="1576578418554" duration="439000" />
+      <workItem from="1576667423128" duration="288000" />
+      <workItem from="1577128901590" duration="1697000" />
+      <workItem from="1577377129503" duration="2145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/gradient_bg"
+    tools:context=".Controllers.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTHENTIFICATION"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_textColor="#AFAFAF"
+        app:met_baseColor="@android:color/white"
+        app:met_primaryColor="@android:color/white"
+        app:met_iconLeft="@drawable/ic_action_name"
+        app:met_iconPadding="0dp"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_textColor="#AFAFAF"
+        app:met_baseColor="@android:color/white"
+        app:met_primaryColor="@android:color/white"
+        app:met_iconLeft="@drawable/ic_lock"
+        app:met_iconPadding="0dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/register_button"
+            android:text="REGISTER"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+
+            android:textColor="@android:color/white"
+            style="@style/Widget.MaterialComponents.Button"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/login_button"
+            android:text="LOGIN"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_marginLeft="8dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/facebook_login"
+        android:layout_width="124dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:fb_defaultColor="#39579B"
+        app:fb_focusColor="#6183d2"
+        app:fb_fontIconResource="&#xf230;"
+        app:fb_fontIconSize="20sp"
+        app:fb_iconPaddingRight="10dp"
+        app:fb_iconPosition="left"
+        app:fb_radius="2dp"
+        app:fb_text="Facebook Connect"
+        app:fb_textColor="#ffffff"
+        app:fb_textSize="16sp" />
+
+
+
+
+</LinearLayout>

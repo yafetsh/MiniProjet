@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D49f" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Article" representedClassName="Article" syncable="YES" codeGenerationType="class">
+        <attribute name="categorie" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id_article" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="prix" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sous_categorie" attributeType="String"/>
+        <attribute name="titre" attributeType="String"/>
+    </entity>
+    <entity name="Favoris" representedClassName="Favoris" syncable="YES" codeGenerationType="class">
+        <attribute name="debut" attributeType="String"/>
+        <attribute name="desc" attributeType="String"/>
+        <attribute name="difficulte" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="distance" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fin" attributeType="String"/>
+        <attribute name="id_event" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="infoline" attributeType="String"/>
+        <attribute name="lieux" attributeType="String"/>
+        <attribute name="nom" attributeType="String"/>
+        <attribute name="photo" attributeType="String" defaultValueString=""/>
+        <attribute name="prix" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="id_user" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Favoris" positionX="-63" positionY="-18" width="128" height="223"/>
+        <element name="User" positionX="-63" positionY="-9" width="128" height="58"/>
+        <element name="Article" positionX="-63" positionY="72" width="128" height="148"/>
+    </elements>
+</model>
