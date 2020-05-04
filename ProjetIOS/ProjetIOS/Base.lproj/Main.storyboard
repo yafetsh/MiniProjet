@@ -141,9 +141,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="130" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="csA-7P-ogg">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="130" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="csA-7P-ogg">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="articleCell" rowHeight="130" id="gzp-7r-JiM">
@@ -153,39 +152,51 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backpack1" translatesAutoresizingMaskIntoConstraints="NO" id="jqe-Do-f4B">
-                                                    <rect key="frame" x="0.0" y="0.0" width="143" height="127"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpack1" translatesAutoresizingMaskIntoConstraints="NO" id="jqe-Do-f4B">
+                                                    <rect key="frame" x="0.0" y="0.0" width="143" height="130"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="143" id="Sc1-9n-PBV"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3Y-OW-Vse">
-                                                    <rect key="frame" x="151" y="11" width="255" height="37"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMS-cC-YBA">
-                                                    <rect key="frame" x="374" y="46" width="40" height="36"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqy-Fh-k12">
-                                                    <rect key="frame" x="175" y="56" width="231" height="36"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOA-Zn-EZl">
-                                                    <rect key="frame" x="175" y="91" width="226" height="36"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WHI-r6-kwV">
+                                                    <rect key="frame" x="153" y="11" width="256" height="114"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3Y-OW-Vse">
+                                                            <rect key="frame" x="0.0" y="0.0" width="256" height="28.5"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Right" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMS-cC-YBA">
+                                                            <rect key="frame" x="0.0" y="28.5" width="256" height="28.5"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Left 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqy-Fh-k12">
+                                                            <rect key="frame" x="0.0" y="57" width="256" height="28.5"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Left 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOA-Zn-EZl">
+                                                            <rect key="frame" x="0.0" y="85.5" width="256" height="28.5"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="WHI-r6-kwV" secondAttribute="trailing" constant="5" id="17X-ry-xzE"/>
+                                                <constraint firstItem="jqe-Do-f4B" firstAttribute="leading" secondItem="vB6-T9-DIK" secondAttribute="leading" id="7MO-vy-RUf"/>
+                                                <constraint firstItem="WHI-r6-kwV" firstAttribute="leading" secondItem="jqe-Do-f4B" secondAttribute="trailing" constant="10" id="GPY-Qg-E7W"/>
+                                                <constraint firstItem="WHI-r6-kwV" firstAttribute="top" secondItem="vB6-T9-DIK" secondAttribute="top" constant="11" id="NpC-kH-93S"/>
+                                                <constraint firstItem="jqe-Do-f4B" firstAttribute="top" secondItem="vB6-T9-DIK" secondAttribute="top" id="SXf-bD-TRB"/>
+                                                <constraint firstAttribute="bottom" secondItem="WHI-r6-kwV" secondAttribute="bottom" constant="5" id="V01-Oc-IXb"/>
+                                                <constraint firstAttribute="bottom" secondItem="jqe-Do-f4B" secondAttribute="bottom" id="lFa-qq-FuR"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -197,6 +208,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="csA-7P-ogg" firstAttribute="trailing" secondItem="p5n-FM-98q" secondAttribute="trailing" id="1Dp-lW-vfy"/>
+                            <constraint firstItem="csA-7P-ogg" firstAttribute="bottom" secondItem="p5n-FM-98q" secondAttribute="bottom" id="1XY-Pf-bYb"/>
+                            <constraint firstItem="csA-7P-ogg" firstAttribute="leading" secondItem="p5n-FM-98q" secondAttribute="leading" id="NYy-HX-avf"/>
+                            <constraint firstItem="csA-7P-ogg" firstAttribute="top" secondItem="p5n-FM-98q" secondAttribute="top" id="dhC-tw-TA7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="p5n-FM-98q"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mes Articles" image="cart" catalog="system" id="ATs-mU-tRG"/>
@@ -207,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RCJ-dK-ykL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2513" y="-1767"/>
+            <point key="canvasLocation" x="-1826" y="-3105"/>
         </scene>
         <!--Mes évènements-->
         <scene sceneID="uSJ-t9-783">
@@ -310,7 +327,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qJ-go-B0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2259" y="-969"/>
+            <point key="canvasLocation" x="-2774" y="-2671"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="Iqq-Xj-mP1">
@@ -2003,7 +2020,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="aDm-Ke-XyU"/>
         <segue reference="V0k-Ye-th1"/>
-        <segue reference="Anx-mX-kX1"/>
+        <segue reference="VfZ-Wn-NYF"/>
         <segue reference="I4i-E3-KTx"/>
         <segue reference="Agc-au-bNn"/>
     </inferredMetricsTieBreakers>
